@@ -35,3 +35,35 @@ It adheres to a **simple MVC pattern** to maintain a clean separation of logic, 
 ├── controllers/     # Application logic & request handling
 ├── views/           # UI templates (HTML + PHP components)
 └── index.php        # Main entry point and routing engine
+```
+---
+
+# 🚀 Installation & Setup
+### 1️⃣ Clone the Repository
+git clone https://github.com/SazidAhmedEkram/Online-Medicine-Shop.git
+
+### 2️⃣ Move to Server Directory
+
+For XAMPP:
+C:\xampp\htdocs\OnlineMedicineShop
+
+### 3️⃣ Start Local Server
+
+Start the following services in XAMPP:
+
+Apache
+
+MySQL
+### 4️⃣ Run the Application
+
+Open your browser:
+
+http://localhost/OnlineMedicineShop/index.php
+### 5️⃣ Database Setup (Auto Initialization)
+
+On first run, the system automatically:
+Creates the database
+Creates required tables
+Inserts default admin account
+Seeds sample medicine data
+
