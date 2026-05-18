@@ -1,4 +1,5 @@
 <section class="auth-shell">
+    <!-- Added the panel class -->
     <div class="panel narrow">
         <h1>Login</h1>
         <p class="muted">Use your admin or customer account to continue.</p>
