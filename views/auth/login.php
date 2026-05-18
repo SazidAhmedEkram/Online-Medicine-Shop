@@ -1,3 +1,4 @@
+<!-- This is the login module -->
 <section class="auth-shell">
     <div class="panel narrow">
         <h1>Login</h1>
