@@ -1,5 +1,5 @@
 <?php
-
+// Admin dash board
 function admin_dashboard()
 {
     $conn = db();
@@ -16,7 +16,7 @@ function admin_dashboard()
         )
     ));
 }
-
+// Admin category
 function admin_categories()
 {
     $conn = db();
@@ -47,6 +47,7 @@ function admin_categories()
     ));
 }
 
+// update the admin editing function
 function admin_edit_category($id)
 {
     $conn = db();
