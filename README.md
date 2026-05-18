@@ -58,7 +58,7 @@ MySQL
 
 Open your browser:
 
-http://localhost/OnlineMedicineShop/index.php
+http://localhost/Online%20Medicine%20Shop/index.php
 ### 5️⃣ Database Setup (Auto Initialization)
 
 On first run, the system automatically:
