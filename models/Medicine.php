@@ -1,5 +1,5 @@
 <?php
-
+// fetch for the all medicine
 function medicine_all($conn, $filters = array())
 {
     // start medicine query
@@ -59,6 +59,7 @@ function medicine_find($conn, $id)
     );
 }
 
+// create the medicine 
 function medicine_create($conn, $data)
 {
     // insert new medicine
