@@ -6,7 +6,7 @@
     </div>
 </section>
 
- <!-- Setting the shopping layput -->
+ <!-- Setting the shopping layout -->
 <section class="shop-layout">
     <aside class="sidebar">
         <h2>Categories</h2>
@@ -25,7 +25,7 @@
             <?php endforeach; ?>
         <?php endforeach; ?>
     </aside>
-
+    <!-- Shop main class -->
     <section class="shop-main">
         <form id="medicineSearchForm" class="filter-bar" method="get" action="<?= url('/') ?>">
             <input type="search" name="q" placeholder="Search medicine name" value="<?= e($filters['q'] ?? '') ?>">
