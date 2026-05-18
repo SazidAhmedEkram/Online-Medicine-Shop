@@ -63,6 +63,7 @@ function auth_register()
     redirect("/login");
 }
 
+// Authentication login 
 function auth_login()
 {
     $conn = db();
