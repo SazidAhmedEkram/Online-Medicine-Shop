@@ -1,5 +1,5 @@
 <?php
-
+// medicine home function
 function medicine_home()
 {
     $conn = db();
@@ -48,7 +48,7 @@ function medicine_category($id)
         "activeCategory" => $category
     ));
 }
-
+// json response from medicine
 function api_medicines()
 {
     $action = $_GET["action"] ?? "search";
