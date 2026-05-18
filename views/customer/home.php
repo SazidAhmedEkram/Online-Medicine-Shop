@@ -24,7 +24,7 @@
             <?php endforeach; ?>
         <?php endforeach; ?>
     </aside>
-
+    <!-- Added the shop main class -->
     <section class="shop-main">
         <form id="medicineSearchForm" class="filter-bar" method="get" action="<?= url('/') ?>">
             <input type="search" name="q" placeholder="Search medicine name" value="<?= e($filters['q'] ?? '') ?>">
