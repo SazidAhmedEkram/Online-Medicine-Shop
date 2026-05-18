@@ -6,6 +6,7 @@
     </div>
 </section>
 
+ <!-- Setting the shopping layput -->
 <section class="shop-layout">
     <aside class="sidebar">
         <h2>Categories</h2>
